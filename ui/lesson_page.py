@@ -21,8 +21,11 @@ class LessonPage(BasePage):
         self.lesson_text = ctk.CTkTextbox(self.content, wrap="word", state="disabled")
         self.lesson_text.grid(row=0, column=1, sticky="nsew", pady=10)
 
-        # Styling Tags for subtitles
-        self.lesson_text.tag_config("subtitle")
+        # Styling Tags for titles and subtitles
+        self.lesson_text.tag_config(
+            "subtitle",
+            foreground="#ffaa00",
+        )
 
         # Load lessons
         self.lessons_dir = os.path.join(os.path.dirname(os.path.realpath(__file__)), "..", "lessons")
@@ -70,7 +73,7 @@ class LessonPage(BasePage):
         self.lesson_text.delete("1.0", ctk.END)
 
         # Insert lesson title
-        self.lesson_text.insert("end", lesson_title + "\n\n")
+        self.lesson_text.insert("end", lesson_title.upper() + "\n\n")
 
         # Insert all content sections
         for section in sections:
