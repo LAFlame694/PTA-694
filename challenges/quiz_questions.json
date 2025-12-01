@@ -1,0 +1,12 @@
+[
+  {
+    "question": "What is the correct way to declare a variable in Python?",
+    "options": ["var x = 5", "x = 5", "int x = 5", "declare x = 5"],
+    "answer": "x = 5"
+  },
+  {
+    "question": "Which keyword is used to create a function in Python?",
+    "options": ["function", "def", "func", "lambda"],
+    "answer": "def"
+  }
+]
