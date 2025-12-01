@@ -1,0 +1,73 @@
+{
+    "title": "Python Output / Print",
+    "sections": [
+        {
+            "subtitle": "1. Print Text",
+            "text": "You have already learned that you can use the print() function to display text or output values:"
+        },
+
+        {
+            "subtitle": "Example",
+            "text": "print(\"Hello World!\")\n\nYou can use the print() function as many times as you want. Each call prints text on a new line by default:"
+        },
+
+        {
+            "subtitle": "Example",
+            "text": "print(\"Hello World!\")\nprint(\"I am learning Python.\"))\nprint(\"It is awesome!\")"
+        },
+
+        {
+            "subtitle": "Double Quotes",
+            "text": "Text in Python must be inside quotes. You can use either double quotes or single quotes:"
+        },
+
+        {
+            "subtitle": "Example",
+            "text": "print(\"This will work!\")\nprint('This will also work!')\n\nIf you forget to put the text inside quotes, Python will give an error:"
+        },
+
+        {
+            "subtitle": "Example",
+            "text": "print(This will cause an error)"
+        },
+
+        {
+            "subtitle": "Print Without a New Line",
+            "text": "By default, the print() function ends with a new line.\n\nIf you want to print multiple items on the same line, you can use the end parameter of the print() function:"
+        },
+
+        {
+            "subtitle": "Example",
+            "text": "print(\"Hello World!\", end=\" \")\nprint(\"I will print on the same line.\")\n\nNote that we add a space after end=\" \" for better readability."
+        },
+
+        {
+            "subtitle": "2. Print Numbers",
+            "text": "You can also use the print() function to display numbers:\nHowever, unlike text, we don't put numbers inside double quotes:"
+        },
+
+        {
+            "subtitle": "Example",
+            "text": "print(3)\nprint(358)\nprint(50000)\n\nYou can also do math inside the print() function:"
+        },
+
+        {
+            "subtitle": "Example",
+            "text": "print(3 + 3)\nprint(2 * 5)"
+        },
+
+        {
+            "subtitle": "Mix Text and Numbers",
+            "text": "You can combine text and numbers in one output by separating them with a comma:"
+        },
+
+        {
+            "subtitle": "Example",
+            "text": "print(\"I am\", 35, \"years old.\")"
+        },
+
+        {
+            "text": "You will learn more about combining text and variables in the Python Variables and Python Strings chapters."
+        }
+    ]
+}
