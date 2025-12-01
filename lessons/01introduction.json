@@ -3,7 +3,27 @@
   "sections": [
     {
         "subtitle": "What is Python?",
-        "text": "Python is a popular programming language. It was created by Guido van Rossum, and released in 1991."
+        "text": "Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.\nIt is used for:\n\n    ●web development (server-side),\n    ●software development,\n    ●mathematics,\n    ●system scripting."
+    },
+
+    {
+        "subtitle": "What can Python do?",
+        "text": "    ●Python can be used on a server to create web applications.\n    ●Python can be used alongside software to create workflows.\n    ●Python can connect to database systems. It can also read and modify files.\n    ●Python can be used to handle big data and perform complex mathematics.\n    ●Python can be used for rapid prototyping, or for production-ready software development."
+    },
+
+    {
+        "subtitle": "Why Python?",
+        "text": "    ●Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc).\n    ●Python has a simple syntax similar to the English language.\n    ●Python has syntax that allows developers to write programs with fewer lines than some other programming languages.\n    ●Python runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick.\n    ●Python can be treated in a procedural way, an object-oriented way or a functional way."
+    },
+
+    {
+        "subtitle": "Python Syntax compared to other programming languages",
+        "text": "    ●Python was designed for readability, and has some similarities to the English language with influence from mathematics.\n    ●Python uses new lines to complete a command, as opposed to other programming languages which often use semicolons or parentheses.\n    ●Python relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and classes. Other programming languages often use curly-brackets for this purpose."
+    },
+
+    {
+        "subtitle": "Example",
+        "text": "print(\"Hello, World!\")"
     }
   ]
 }
