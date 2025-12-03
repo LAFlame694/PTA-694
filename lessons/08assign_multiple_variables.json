@@ -1,0 +1,38 @@
+{
+    "title": "Python - Assign Multiple Values",
+    "sections": [
+        {
+            "text": "Python allows you to assign values to multiple variables in one line:"
+        },
+
+        {
+            "subtitle": "Example",
+            "text": "x, y, z = \"Orange\", \"Banana\", \"Cherry\"\nprint(x)\nprint(y)\nprint(z)"
+        },
+
+        {
+            "text": "Make sure the number of variables matches the number of values, or else you will get an error."
+        },
+
+        {
+            "subtitle": "One Value to Multiple Variables",
+            "text": "And you can assign the same value to multiple variables in one line"
+        },
+
+        {
+            "subtitle": "Example",
+            "text": "x, y, z = \"Orange\", \"Banana\", \"Cherry\"\nprint(x)\nprint(y)\nprint(z)"
+        },
+
+        {
+            "subtitle": "Unpack a Collection",
+            "text": "If you have a collection of values in a list, tuple etc. Python allows you to extract the values into variables. This is called unpacking."
+        },
+
+        {
+            "subtitle": "Example",
+            "text": "fruits = [\"apple\", \"banana\", \"cherry\"]\nx, y, z = fruits\nprint(x)\nprint(y)\nprint(z)\n\nLearn more about unpacking in our Unpack Tuples Chapter."
+        }
+
+    ]
+}

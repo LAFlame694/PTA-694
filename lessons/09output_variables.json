@@ -1,0 +1,38 @@
+{
+    "title": "Python - Output Variables",
+    "sections": [
+        {
+            "text": "The print() function is often used to output variables."
+        },
+
+        {
+            "subtitle": "Example",
+            "text": "x = \"Python is awesome\"\nprint(x)\n\nIn the print() function, you output multiple variables, separated by a comma:"
+        },
+
+        {
+            "subtitle": "Example",
+            "text": "x = \"Python\"\ny = \"is\"\nz = \"awesome\"\nprint(x, y, z)\n\nYou can also use the + operator to output multiple variables:"
+        },
+
+        {
+            "subtitle": "Example",
+            "text": "x = \"Python \"\ny = \"is \"\nz = \"awesome\"\nprint(x + y + z)\n\nNotice the space character after \"Python \" and \"is \", without them the result would be \"Pythonisawesome\".\n\nFor numbers, the + character works as a mathematical operator:"
+        },
+
+        {
+            "subtitle": "Example",
+            "text": "x = 5\ny = 10\nprint(x + y)\n\nIn the print() function, when you try to combine a string and a number with the + operator, Python will give you an error:"
+        },
+
+        {
+            "subtitle": "Example",
+            "text": "x = 5\ny = \"John\"\nprint(x + y)\n\nThe best way to output multiple variables in the print() function is to separate them with commas, which even support different data types:"
+        },
+        
+        {
+            "subtitle": "Example",
+            "text": "x = 5\ny = \"John\"\nprint(x, y)"
+        }
+    ]
+}

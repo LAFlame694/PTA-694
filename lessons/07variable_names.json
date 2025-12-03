@@ -1,0 +1,38 @@
+{
+    "title": "Python - Variable Names",
+    "sections": [
+        {
+            "text": "A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume).\nRules for Python variables:\n    ● A variable name must start with a letter or the underscore character\n    ● A variable name cannot start with a number\n    ● A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )\n    ● Variable names are case-sensitive (age, Age and AGE are three different variables)\n    ● Variable names cannot be the same as Python keywords"
+        },
+
+        {
+            "subtitle": "Example",
+            "text": "Legal variable names:\nmyvar = \"John\"\n_my_var = \"John\"\nmyVar = \"John\"\nMYVAR = \"John\"\nmyvar2 = \"John\""
+        },
+
+        {
+            "subtitle": "Example",
+            "text": "Illegal variable names:\n2myvar = \"John\"\nmy-var = \"John\"\nmy var = \"John\"\n\nRemember that variable names are case-sensitive"
+        },
+
+        {
+            "subtitle": "Multi Words Variable Names",
+            "text": "Variable names with more than one word can be difficult to read.\nThere are several techniques you can use to make them more readable:"
+        },
+
+        {
+            "subtitle": "Camel Case",
+            "text": "Each word, except the first, starts with a capital letter:\n\nmyVariableName = \"John\""
+        },
+
+        {
+            "subtitle": "Pascal Case",
+            "text": "Each word starts with a capital letter:\n\nMyVariableName = \"John\""
+        },
+
+        {
+            "subtitle": "Snake Case",
+            "text": "Each word is separated by an underscore character:\n\nmy_variable_name = \"John\""
+        }
+    ]
+}
